@@ -1,18 +1,11 @@
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Ensure the entire page has a black background */
 html, body {
-    background-color:black !important; 
+    background-color:black; 
     background-image: url("bk.png");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
+
 .show-info{
 	color: #fff;
 }
