@@ -18,6 +18,10 @@
 
 </head>
 <body>
+    <div class="preloader">
+        <img src="Logo.png" alt="Your Logo">
+      </div>
+    
     <section class="block">
         <div class="container">
             <div class="section-title text-center wow slideInUp">
@@ -44,6 +48,7 @@
                                 </div>
                                 <div class="show-info">
                                     <h3>MVW Podcast Party DC </h3>
+                                    <h5>Sponsored by Remy Martin</h5>
                                     <span>Live experience</span>
                                 </div>
                             </div><!--shows-head end-->
@@ -189,5 +194,16 @@
             </div>
         </div>
     </section>
+    <script>
+        // Remove preloader after 5 seconds
+        setTimeout(function() {
+          document.body.classList.add('loaded');
+        }, 5000);
+    
+        // Check if the page has fully loaded
+        window.addEventListener('load', function() {
+          document.body.classList.add('loaded');
+        });
+      </script>
 </body>
 </html>
